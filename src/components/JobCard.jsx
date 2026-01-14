@@ -33,7 +33,7 @@ const JobCard = ({ job }) => {
           </div>
           <div>
             <p>Department</p>
-            <h4>{(job.jobIndustry && job.jobIndustry[0]) || "---"}</h4>
+            <h4>{(job.jobIndustry && cleanJobTitle(job.jobIndustry[0])) || "---"}</h4>
           </div>
         </div>
         <div className="inner_container">

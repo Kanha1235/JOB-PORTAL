@@ -1,16 +1,109 @@
-# React + Vite
+# Job Portal – React Application &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![View it live](https://img.shields.io/badge/Live-Demo-blue)](https://job-applictn-portal.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Job Portal web application** built using **React.js**, Redux Toolkit, and modern frontend practices. This project simulates a real-world job search and application platform where users can browse jobs, view detailed job descriptions, and apply seamlessly.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+This project focuses on building a **scalable, component-driven frontend application** similar to real-world job platforms (LinkedIn, Indeed, AngelList). It demonstrates how complex UI states, routing, API integration, and data rendering are handled in production-grade React applications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔍 **Job Listings & Details**
+
+  * Browse available jobs
+  * View detailed job information (location, salary, experience, type, etc.)
+
+* 🧾 **Dynamic Job Description Rendering**
+
+  * Safely parses and renders HTML job descriptions
+  * Handles edge cases like `<br>`, links, and text nodes correctly
+
+* 🧠 **State Management with Redux Toolkit**
+
+  * Centralized application state for job applications
+  * Tracks applied jobs across routes
+
+* 🧭 **Client-side Routing**
+
+  * Dynamic routes using `react-router-dom`
+  * Route-based job detail pages (`/job/:id`)
+
+* 📝 **Job Application Flow**
+
+  * Apply button state changes based on application status
+  * Persistent applied-job tracking
+
+* 📱 **Responsive UI**
+
+  * Clean and adaptive layout
+  * Reusable UI components with CSS Modules
+
+---
+
+## 🛠 Tech Stack
+
+* **Frontend:** React.js, JavaScript (ES6+)
+* **State Management:** Redux Toolkit
+* **Routing:** React Router DOM
+* **Styling:** CSS Modules, Custom CSS
+* **Data Handling:** API integration via RTK Query
+* **Utilities:** DOMParser, custom formatters
+
+---
+
+## 🧩 Architecture & Design Decisions
+
+* Component-based architecture for reusability
+* Separation of concerns using utilities and slices
+* Defensive rendering for async data
+* Avoided unsafe HTML rendering practices
+* Followed React best practices for performance and correctness
+
+---
+
+## 🧠 Learnings & Takeaways
+
+* Deep understanding of **React rendering lifecycle**
+* Handling **void HTML elements** when converting DOM to JSX
+* Real-world usage of **Redux Toolkit & RTK Query**
+* Dynamic routing and param-based data fetching
+* Debugging React runtime errors effectively
+* Writing production-safe utility functions
+* Improving UX through conditional UI states
+
+---
+
+## 📌 Future Enhancements
+
+* Authentication & user profiles
+* Resume upload and tracking
+* Saved jobs & filters
+* Backend integration for real applications
+* Performance monitoring with Web Vitals
+
+---
+
+## 📂 Project Type
+
+**Frontend Project | React.js**
+
+---
+
+## 📎 How to Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## 👨‍💻 Author
+
+**Kanhaiya Kumar Sahu**
+B.Tech – Mathematics & Computing
+Indian Institute of Technology, Ropar
