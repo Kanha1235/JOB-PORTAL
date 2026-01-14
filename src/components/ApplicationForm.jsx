@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import "../styles/jobDetailsStyle.css";
+import "../styles/JobDetailsStyle.css";
 import { useSelector } from "react-redux";
 import style from "../styles/applicationForm.module.css";
 import { useGetJobDataQuery } from "../redux/slice/api/jobApiSlice";
