@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { renderJobDescription } from "../utilities/renderJobDescription";
-import "../styles/jobDetailsStyle.css";
+import "../styles/JobDetailsStyle.css";
 import { useSelector } from "react-redux";
 import style from "../styles/productCard.module.css";
 import { useGetJobDataQuery } from "../redux/slice/api/jobApiSlice";
