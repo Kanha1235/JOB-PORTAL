@@ -1,0 +1,18 @@
+.job-description p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.job-description ul {
+  padding-left: 20px;
+  margin-bottom: 12px;
+}
+
+.job-description li {
+  margin-bottom: 6px;
+}
+
+.job-description a {
+  color: #4ea1ff;
+  text-decoration: underline;
+}

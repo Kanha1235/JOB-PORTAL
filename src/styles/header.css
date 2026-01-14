@@ -1,0 +1,25 @@
+.hamburger {
+  display: none;
+}
+.outerNavbar {
+  display: none;
+}
+.innerNavbar {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .outerNavbar {
+    display: flex;
+  }
+
+  .innerNavbar {
+    display: none;
+  }
+  .home_para {
+    font-size: 0.5rem;
+  }
+}
