@@ -6,13 +6,17 @@ import { store } from './redux/store/store.js'
 import { Provider } from 'react-redux'
 import UserContextProvider from './context/UserContextProvider.jsx'
 import {BrowserRouter} from "react-router-dom"
+import ScrollToTop from './components/ScrollToTop.jsx'
+
 
 createRoot(document.getElementById('root')).render(
    
   <UserContextProvider>
     <Provider store = {store}>
       <BrowserRouter>
-        <App />
+        <ScrollToTop>
+          <App />
+        </ScrollToTop>
       </BrowserRouter>
     </Provider>
   </UserContextProvider>
